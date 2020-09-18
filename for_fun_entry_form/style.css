@@ -1,0 +1,133 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto Slab', serif;
+  background: url(bgc.jpg) no-repeat center;
+  background-size: cover;
+  
+}
+header{
+    border-bottom: 0.5vw solid rgb(98, 237, 70);
+    background-color: white;
+    
+    
+}
+h1{
+    width: 25%;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+   
+    font-size: 2vw;
+}
+.alert-danger{
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 3vw;
+  width: 40vw;
+  background-color: hsl(325, 93%, 63%);
+}
+h2{
+    padding: 0,5%;
+    text-align: center;
+    font-size: 2vw;
+}
+
+.authorization-main {
+    margin-top: 0.08vw;
+  }
+  
+  .box-for-authorization {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    font-family: __Lato_5;
+    /*background-color: #cdeeb7;*/
+    /*background-color: #ceee92;*/
+    background-color: #28dbf3;
+    width: 24vw;
+    margin: auto;
+    border-radius: 0.2vw;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+  }
+  
+  .logo-authorization {
+    margin-top: 0;
+    margin-bottom: 0.5vw;
+    font-size: 1.2vw;
+    margin-bottom: 6%;
+    align-self: flex-start;
+  }
+  
+  .password-authorization {
+    margin-top: 6%;
+    margin-bottom: 6%;
+    font-size: 1.2vw;
+    align-self: flex-start;
+  }
+  
+  .but-entrance {
+    margin-top: 2vw;
+    border: 0.07vw solid #3d3d36a2;
+    font-size: 1.25vw;
+    color: rgb(247, 225, 199);
+    font-family: __Lato_5;
+    width: 9vw;
+    height: 2vw;
+    text-align: center;
+    background: transparent;
+    background-color: rgb(163, 149, 131);
+    margin-bottom: 3vw;
+  }
+  
+  .but-entrance:hover {
+    cursor: pointer;
+    border: 0.07vw solid #c4c5ee;
+    box-shadow: 0.07vw 0.07vw 0.07vw #c4c5ee;
+    background-color: hsl(325, 93%, 63%);
+    color: rgb(49, 48, 48);
+    transition: background 1s ease, color 0.2s linear;
+  }
+
+
+  .area-for-input {
+    width: 16vw;
+    height: 1.6vw;
+    font-size: 1.04167vw;
+    padding-left: 5%;
+    border-radius: 0.2vw;
+  }
+  
+  .box-for-but-entrance {
+    text-align: center;
+  }
+  
+  .authorization {
+    font-size: 1.875vw;
+    color: #58462a;
+    letter-spacing: 0.2vw;
+    font-weight: 1200;
+    margin-top: 3vw;
+    margin-bottom: 6%;
+    font-weight: 900;
+  }
+  
+  .errorlist {
+    color: rgb(80, 54, 6);
+    list-style-type: none;
+    font-size: 0.83333vw;
+    align-self: start;
+    width: 17vw;
+    padding: 0;
+  }
+  
+  .form-for-authorization {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+  
+  

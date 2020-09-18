@@ -1,0 +1,729 @@
+*, 
+*:before,
+*:after{ 
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1.2rem;
+  margin: 0;
+  font-family: 'Montserrat-Regular';
+  background: url(img/footer1.jpg) center no-repeat;
+  background-size: cover;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+
+
+/* Contact */
+.site-map__map-extrasmall{
+  display: none;
+}
+.site-map__map-small{
+  display: none;
+}
+.site-map__map-medium{
+  display: none;
+}
+.site-map__map-large{
+  display: none;
+}
+.contact{
+  color:  white;
+}
+.contact__title{
+  padding: 5vw 6vw 1vw;
+  font-size: 2vw;
+  font-family: 'Montserrat-Bold';
+}
+
+.map-wraper {
+  display: flex;
+  justify-content: space-around;
+}
+
+.contact__info{
+  font-size: 1.2vw;
+  width: 19%;
+  height: 22vw;
+  background: black;
+  text-align: center;
+  padding: 1vw;
+}
+
+/* Footer */
+.footer__wraper {
+  color: white;
+  background: url(./img/footer1.jpg) center no-repeat;
+  background-size: cover;
+}
+
+.footer__title {
+  font-family: 'Montserrat-Bold';
+  font-size: 2rem;
+  color: white;
+  padding: 3rem 0 1rem 7rem;
+}
+
+.form-wraper {
+  display: flex;
+}
+
+.footer__form {
+  display: flex;
+  justify-content: space-between;
+  margin: 3rem;
+}
+
+.footer__tel {
+  font-family: 'Montserrat-Regular';
+  color: black;
+  width: 15rem;
+  height: 2.5rem;
+  padding-left: 2rem;
+  margin-left: 2rem;
+  border: none;
+}
+
+.footer__submit {
+  font-family: 'Montserrat-Bold';
+  color: white;
+  width: 15rem;
+  height: 2.5rem;
+  margin-left: 2rem;
+  background: orange;
+  border: none;
+}
+
+
+
+.site-map {
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: -2rem;
+}
+
+.site-map__logo-suptitle {
+  font-family: 'Montserrat-Regular';
+}
+
+.site-map__logo-title {
+  font-size: 1.6rem;
+  letter-spacing: 10px;
+}
+
+.site-map__logo-subtitle {
+  font-size: 1rem;
+}
+
+.site-map__adress {
+  font-family: 'Montserrat-Regular';
+  display: block;
+  color: white;
+  margin-top: 2rem;
+}
+
+.site-map__title {
+  letter-spacing: 3px;
+  font-size: 1rem;
+}
+
+.site-map__link {
+  display: block;
+  font-family: 'Montserrat-Thin';
+  font-size: 0.9rem;
+  color: white;
+  margin-top: 0.7rem;
+}
+.site-map__logo-footer{
+    display: none;
+}
+
+
+  
+@font-face {
+	font-family: 'Montserrat-Regular';
+	src: url('fonts/Montserrat-Regular.eot');
+	src: local('☺'), url('fonts/Montserrat-Regular.woff') format('woff'), url('fonts/Montserrat-Regular.ttf') format('truetype'), url('fonts/Montserrat-Regular.svg') format('svg');
+}
+
+@font-face {
+	font-family: 'Montserrat-Bold';
+	src: url('fonts/Montserrat-Bold.eot');
+	src: local('☺'), url('fonts/Montserrat-Bold.woff') format('woff'), url('fonts/Montserrat-Bold.ttf') format('truetype'), url('fonts/Montserrat-Bold.svg') format('svg');
+}
+
+@font-face {
+	font-family: 'Montserrat-Thin';
+	src: url('fonts/Montserrat-Thin.eot');
+	src: local('☺'), url('fonts/Montserrat-Thin.woff') format('woff'), url('fonts/Montserrat-Thin.ttf') format('truetype'), url('fonts/Montserrat-Thin.svg') format('svg');
+}
+
+
+
+
+/* медиазапросы */
+
+
+/* Медиазапросы для ширины экрана меньше 576px */
+
+@media (max-width:576px){
+  .contact__wrapper{
+    padding-top: 60px;
+  }
+/* Contact */
+.site-map__map-extrasmall{
+  display: block;
+  align-self: center;
+}
+.site-map__map{
+display: none;
+}
+.site-map__map-small{
+  display: none;
+}
+.site-map__map-medium{
+  display: none;
+}
+.site-map__map-large{
+  display: none;
+}
+.contact__title{
+  margin: 0 auto;
+  text-align: center;
+  font-size: 2vw;
+}
+
+.map-wraper {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.contact__info{
+  font-size: 2vw;
+  width: 320px;
+  height: 35vw;
+  margin: 0 auto;
+}
+
+}
+
+/*  Медиазапросы для ширины экрана от 577px до 768px */
+
+@media (min-width:577px) and (max-width:768px){
+
+/* Contact */
+.contact__wrapper{
+  padding-top: 60px;
+}
+.site-map__map-extrasmall{
+  display: none;
+}
+.site-map__map{
+display: none;
+}
+.site-map__map-small{
+  display: block;
+  align-self: center;
+}
+.site-map__map-medium{
+  display: none;
+}
+.site-map__map-large{
+  display: none;
+}
+.contact__title{
+  margin: 0 auto;
+  text-align: center;
+  font-size: 2vw;
+}
+
+.map-wraper {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.contact__info{
+  font-size: 2vw;
+  width: 540px;
+  height: 35vw;
+  margin: 0 auto;
+}
+
+}
+
+/*  Медиазапросы для ширины экрана от 769px до 992px */
+
+@media (min-width:769px) and (max-width:992px){
+
+/* Contact */
+.contact__wrapper{
+  padding-top: 60px;
+}
+.site-map__map-extrasmall{
+  display: none;
+}
+.site-map__map{
+display: none;
+}
+.site-map__map-small{
+  display: none;
+}
+.site-map__map-medium{
+  display: block;
+  margin: 0 auto;
+}
+.site-map__map-large{
+  display: none;
+}
+.map-wraper {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.contact__info{
+  margin: 0 auto;
+  width: 720px;
+  height: 33vw;
+  font-size: 1.5vw;
+}
+.contact__title{
+  text-align: center;
+}
+}
+
+
+
+
+/*  Медиазапросы для ширины экрана от 993px до 1200px */
+
+@media (min-width:993px) and (max-width:1200px){
+
+/* Contact */
+.contact__wrapper{
+  padding-top: 60px;
+}
+.site-map__map-extrasmall{
+  display: none;
+}
+.site-map__map{
+display: none;
+}
+.site-map__map-small{
+  display: none;
+}
+.site-map__map-medium{
+  display: none;
+}
+.site-map__map-large{
+  display: block;
+}
+.map-wraper {
+  display: flex;
+  justify-content: space-around;
+}
+
+.contact__info{
+  height: 25vw;
+}
+
+}
+
+
+
+
+/* навигация */
+
+.container{
+  margin: 0 auto;
+  padding: 0px 20px;
+}
+.header{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 50;
+}
+.header:before{
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%; 
+  top: 0;
+  left: 0;
+  background-color: black;
+  z-index: 2;
+}
+.header__body{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  align-items: center;   
+}
+.header__burger{
+  display: none;
+}
+
+.header__list{
+  display: flex;
+  position: relative;
+  z-index: 3;
+
+}
+.header__list>li{
+  list-style: none;
+  margin: 0px 0px 0px 20px;
+  
+}
+.header__link{
+  color: white;
+
+}
+
+@media (max-width:767px){
+body .lock{
+overflow: hidden;
+}
+.nav__wraper{
+  display: none;
+}
+  .header__body{
+      height: 60px;
+  }
+  .nav__logo-wrapper{
+      height: 70%;
+      padding: 0;
+      font-size: 0.5rem;
+  }
+  .header__burger{
+      display: block;
+      position: relative;
+      width: 30px;
+      height: 20px;
+      z-index: 3;
+  }
+  .header__burger:before,
+  .header__burger:after{
+       content: '';
+      background-color: white;
+      position: absolute;
+      width: 100%;
+      height: 2px;
+      left: 0;
+      transition: all 0.3s ease 0s;
+  }
+  .header__burger>span{
+      background-color: white;
+      position: absolute;
+      width: 100%;
+      height: 2px;
+      left: 0;
+      content: '';
+      top: 9px;
+      transition: all 0.3s ease 0s;
+  }
+  .header__burger:before{
+      top: 0;
+  }
+  .header__burger:after{
+      bottom: 0;  
+  }
+  .header__burger.active:before{
+      transform: rotate(45deg);
+      top: 9px;
+  }
+  .header__burger.active:after{
+      transform: rotate(-45deg);
+      bottom: 9px;
+  }
+  .header__burger.active span{
+      transform: scale(0);
+  }
+  .header__menu{
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      overflow: auto;
+      background-color: rgb(171, 124, 216);
+      padding: 70px 0px 0px 0px;
+      text-align: center;
+  }
+  .header__list{
+    width: 100%;
+    display: block;
+
+  }
+  .header__list li{
+    padding: 10px 0px 10px 0px;
+      margin: 0px 0px 10px -40px;
+      text-transform: uppercase;
+  }
+  .header__link{
+  font-size: 1.5rem;
+  color:white;
+  }
+  .header__list li:hover{
+    background-color: orange;
+  }
+}
+
+.nav__logo-wrapper{
+  display: flex;
+  flex-direction: column;
+  border: 2px solid white;
+  align-content: center;
+  z-index: 3;
+}
+.nav__logo {
+  color: white;
+ 
+}
+
+.nav__logo-top {
+  font-size: 1rem;
+  font-family: 'Montserrat-Bold';
+  text-align: center;
+  padding-top: 2%;
+}
+
+.nav__logo-bottom {
+  font-size: 0.5rem;
+  padding: 0.2rem;
+  text-align: center;
+}
+
+
+@media (min-width:768px){
+  .header__body{
+      display: none;
+  }
+  
+/* Navigation */
+
+.nav__wraper{
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  background: rgb(36, 19, 35);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  /* height: 5vw; */
+}
+.nav__logo-wraper {
+  display: block;
+  width: 9vw;
+  margin-right: 20vw;
+}
+.nav__logo {
+  color: white;
+  text-align: center;
+  border: 0.2vw solid white;
+  padding: 0.5vw;
+}
+.nav__logo-top {
+  font-family: 'Montserrat-Bold';
+  /* letter-spacing: 3px; */
+}
+.nav__logo-bottom {
+  font-size: 0.9vw;
+}
+.nav__link {
+  margin: 0 2vw;
+  color: white;
+  font-size: 0.9rem;
+  /* font-weight: bold; */
+}
+.nav__link:hover{
+  border-bottom: 0.5vw solid rgb(104, 174, 202);
+  transition: 0.2s;
+}
+.nav__link:active{
+  border-bottom: 0.5vw solid violet;
+  transition: 0.2s;
+}
+.nav__sign-in {
+  color: violet;
+  font-weight: bold;
+  margin-left: 2vw;
+}
+}
+
+
+
+  /* медиазапросы for footer only */
+
+
+  @media (max-width: 576px){
+    .footer__wraper{
+        width: 100%;
+    }
+    .form-wraper{
+        flex-direction: column;
+        align-content: center;
+    }
+    .footer__title{
+        width: 100%;
+        text-align: center;
+        padding: 0;
+        font-size: 1rem;
+        margin: 2% 0;
+    }
+    .footer__form{
+        flex-direction: column;
+        align-content: space-around;
+        margin: 0 auto;
+
+    }
+    .footer__tel{
+        margin-bottom: 2%;
+    }
+    .site-map {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+      }
+      .site-map__logo{
+          display: none;
+      }
+      .site-map__column{
+          margin-top: 5%;
+          text-align: center;
+      }
+      .site-map__title{
+          font-size: 1.5rem;
+          position: relative;
+          cursor: pointer;
+      }
+      .site-map__link-wrapper{
+          max-height: 0;
+          overflow: hidden;
+      }
+      .site-map__title:before,
+      .site-map__title:after{
+        content: '';
+        width: 10px;
+        height: 1px;
+        position: absolute;
+        background-color: white;
+
+      }
+      .site-map__title:before{
+          transform: rotate(50deg);
+          left:50px;
+          top:15px
+      }
+      .site-map__title:after{
+        transform: rotate(-50deg);
+        left:56px;
+        top:15px
+    }
+    .site-map__title.active:before{
+        transform: rotate(-50deg);
+    }
+    .site-map__title.active:after{
+        transform: rotate(50deg);
+    }
+    .site-map__title:hover{
+        background-color: orange;
+    }
+    .site-map__logo-footer{
+        display: flex;
+        flex-direction: column;
+        margin-top: 3%;
+        text-align: center;
+        font-size: 0.7rem;
+
+    }
+    .site-map__adress-footer{
+        color: white;
+        margin-bottom: 2%;
+    }
+  }
+
+
+  @media (min-width:577px) and (max-width:991px){
+    .site-map__logo-footer{
+        display: none;
+    }
+    .footer__title{
+        width: 100%;
+        text-align: center;
+        padding: 0;
+        font-size: 1.2rem;
+        margin-top: 1rem;
+    }
+    .form-wraper{
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: 0;
+    }
+
+    .footer__tel {
+        width: 12rem;
+        margin-right: 0.5rem;
+        margin-left: 0;
+      }
+      
+      .footer__submit {
+        font-size: 0.7rem;
+        width: 12rem;
+        margin: 0;
+      }
+      .site-map {
+        display: flex;
+        justify-content: space-around;
+        margin: 0;
+      }
+      .site-map__column{
+        
+      }
+      .site-map__title{
+          font-size: 0.7rem;
+      }
+      .site-map__link{
+          font-size: 0.7rem;
+      }
+      .site-map__logo-title{
+          font-size: 1.2rem;
+      }
+      .site-map__logo-suptitle{
+          font-size: 0.8rem;
+      }
+      .site-map__adress{
+            font-size: 0.7rem;
+      }
+  }
+
+  @media (min-width:992px) and (max-width:1200px){
+   .site-map__logo-footer{
+       display: none;
+   }
+   
+      .footer__tel {
+        width: 12rem;
+      }
+      
+      .footer__submit {
+        width: 12rem;
+        font-size: 0.7rem;
+      }
+      
+      
+       
+  }
+

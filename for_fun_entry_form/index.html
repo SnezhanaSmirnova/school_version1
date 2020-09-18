@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enter Form</title>
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Roboto+Slab:400,500,600,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Тест<br>"На что годен"</h1>
+    </header>
+    <div class="alert alert-danger" role="alert">
+        <h2>Для начала тестирования нужно войти!</h2>
+   </div>
+    
+    <main class="authorization-main">
+        <div class="box-for-authorization">
+         <h3 class="authorization"></h3>
+          <form method="post" class="form-for-authorization">
+            <p class="logo-authorization">Имя пользователя</p>
+            <input
+              class="area-for-input"
+              type="text"
+              name="username"
+              placeholder="Введите логин"
+              maxlength="150"
+              required
+              id="id_username"
+            />
+            <p class="password-authorization">Пароль</p>
+            <input
+              class="area-for-input"
+              type="password"
+              name="password"
+              placeholder="Введите пароль"
+              required
+              id="id_password"
+            />
+  
+            <ul class="errorlist nonfield">
+              <li>
+                Пожалуйста, введите правильные имя пользователя и пароль. Оба поля
+                могут быть чувствительны к регистру.
+              </li>
+            </ul>
+  
+            <div class="box-for-but-entrance">
+              <input type="submit" value="Войти" class="but-entrance" / >
+            </div>
+
+            <div class="box-for-but-entrance">
+              <input type="submit" value="Регистрация" class="but-entrance" / >
+            </div>
+          </form>
+          <!--    <p><a href="#">Забыли пароль?</a><span>&brvbar;</span><a href="#">Регистрация</a></p>-->
+        </div>
+      </main>
+      
+
+</body>
+</html>
